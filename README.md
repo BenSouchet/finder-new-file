@@ -1,7 +1,7 @@
 # Finder New File
-Add a button to your Mac OS finder to create an empty `.txt` file in the current folder.
+Add a button to your Mac OS finder to create an empty `.txt` file in the current folder. 📂
 - No Additional software or library required, it's native AppleScript code ⌨️
-- Open Source project, you can check the code, copy it, edit it, it's under MIT License.
+- Open Source project, you can check the code, copy it, edit it, it's under MIT License. 💫
 
 ## Installation
 1. First download the project via [this link](https://github.com/BenSouchet/finder-new-file/archive/refs/heads/main.zip) and unzip the archive.  
@@ -13,22 +13,31 @@ Cloning into 'finder-new-file'...
 > cd finder-new-file
 ```
 2. Go in `/apps`, open the folder according to your mac os theme (dark or light)  
-If you use the Apparence `auto`, select `auto_theme`
+If you use the Apparence `auto`, select `auto_theme`.  
 Info: There is three apps because the icon need to fit the Mac OS theme. The source code of these apps are identical.
 3. Move the file `finderNewFile.app` in a folder where the app don't risk to be move or delete in the future,  
-I recommend creating a folder `addons` in your user main folder (`cd ~`) and put the app inside.
+I recommend creating a folder `addons` in your user main folder (`cd ~`) and put the app inside:  
+<p align="center"><img width="400" alt="addons" src="https://user-images.githubusercontent.com/17025808/154737770-370ddb05-b16d-4f77-ab48-115a15b6a263.png"></p>
+
 4. In this folder, on your keyboard hold the keys <kbd>&nbsp;command&nbsp;</kbd>+<kbd>&nbsp;option&nbsp;</kbd> and drag the application (`finder_new_file.app`) into the finder toolbar:
-5. Go to your Documents, to do a first try of the app:
-6. The first time you will have a lot of Permission requests, `Allow` these permissions.
-7. Last Step, go to `System Preferences` > `Security & Privacy` > `Accessibility` and allow `Script Editor.app` and `FinderNewFile.app`.
+5. Go to your **Documents**, to do a first try of the app:  
+<p align="center"><img width="400" alt="Documents" src="https://user-images.githubusercontent.com/17025808/154737310-573b5073-ff3d-4a13-8cbe-d58931b52364.png"></p>
+
+7. The first time you will have **a lot** of Permission requests, `Allow` these permissions.
+8. Last Step, go to `System Preferences` > `Security & Privacy` > `Accessibility` and allow `Script Editor.app` and `FinderNewFile.app`.  
+<p align="center"><img width="400" alt="lastperm" src="https://user-images.githubusercontent.com/17025808/154738214-f6c62047-a718-41f4-ae4f-bbc4f01a193a.png">
+</p>
+<p align="center"><img width="400" alt="access_01" src="https://user-images.githubusercontent.com/17025808/154736376-4015d6d3-83f7-4d71-879d-998461b11989.png"><img width="400" alt="access_02" src="https://user-images.githubusercontent.com/17025808/154736382-656c9d75-2a26-4097-a893-d3c0ebfc0a18.png"></p>
+
 
 ## Errors / Bugs
 This project has been developed on macOS Monterey v12.2.1, normally the code work well on older versions but I can't guarantee that it works on newer versions.
 ### Know Issues
-- **finderNewFile is not allowed to send keystrokes. (1002) :
-  You need to verify that on `System Preferences` > `Security & Privacy` > `Accessibility` both `Script Editor.app` and `FinderNewFile.app` are on the list, if not add them with the little `+` button. (You need to unlock the panel by clicking on the padlock icon on the bottom left)
+| Screenshot | Title | Resolution |
+|:----------:|:-----:|------------|
+| <img width="400" alt="ErrorKeystrokes" src="https://user-images.githubusercontent.com/17025808/154735306-e3314465-b307-4df2-8b12-612cb5b63a37.png"> | **finderNewFile is not allowed to send keystrokes. (1002)** | You need to verify that on `System Preferences` > `Security & Privacy` > `Accessibility` both `Script Editor.app` and `FinderNewFile.app` are on the list, if not add them with the little `+` button. (You need to unlock the panel by clicking on the padlock icon on the bottom left). |
 
-If you had another bug / error please [open an issue](https://github.com/BenSouchet/finder-new-file/issues), I will be welcome to help you.
+If you had another error (or bug), please [open an issue](https://github.com/BenSouchet/finder-new-file/issues).
 
 
 ## Source Code
