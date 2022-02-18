@@ -12,8 +12,7 @@ Cloning into 'finder-new-file'...
 
 > cd finder-new-file
 ```
- 2. Go in the folder `/apps`, open the sub-folder according to your macOS apparence (dark or light), if you use the `auto` apparence, select `auto_theme`.    
-Info: There is three apps (one in each folder) because the icon need to fit the Mac OS theme. The source code of these apps are identical.
+ 2. Go in the folder `/apps`, open the sub-folder according to your macOS apparence (dark or light), if you use the `auto` apparence, select `auto_theme`. *Info: There is three apps (one in each folder) because the icon need to fit the Mac OS theme. The source code of these apps are identical.*
  3. Move the file `finderNewFile.app` in a folder where the app don't risk to be move or delete in the future.    
 I recommend creating a folder `addons` in your user directory (`cd ~`) and put the app inside:
 <p align="center"><img width="400" src="https://user-images.githubusercontent.com/17025808/154737770-370ddb05-b16d-4f77-ab48-115a15b6a263.png"></p>
@@ -36,7 +35,7 @@ This project has been developed on macOS Monterey v12.2.1, normally the code wor
 ### Know Issues
 | Screenshot | Title | Resolution |
 |:----------:|:-----:|------------|
-| <img width="400" alt="ErrorKeystrokes" src="https://user-images.githubusercontent.com/17025808/154735306-e3314465-b307-4df2-8b12-612cb5b63a37.png"> | **finderNewFile is not allowed to send keystrokes. (1002)** | You need to verify that on `System Preferences` > `Security & Privacy` > `Accessibility` both `Script Editor.app` and `FinderNewFile.app` are on the list, if not add them with the little `+` button. (You need to unlock the panel by clicking on the padlock icon on the bottom left). |
+| <img width="400" alt="ErrorKeystrokes" src="https://user-images.githubusercontent.com/17025808/154735306-e3314465-b307-4df2-8b12-612cb5b63a37.png"> | **finderNewFile is not allowed to send keystrokes. (1002)** | You need to verify that on `System Preferences` > `Security & Privacy` > `Accessibility` both `Script Editor.app` and `FinderNewFile.app` are on the list, if not add them with the little `+` button. (You first need to unlock the panel by clicking on the padlock icon on the bottom left). |
 
 If you had another error (or bug), please [open an issue](https://github.com/BenSouchet/finder-new-file/issues).
 
