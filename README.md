@@ -18,7 +18,10 @@ Info: There is three apps (one in each folder) because the icon need to fit the 
 I recommend creating a folder `addons` in your user directory (`cd ~`) and put the app inside:
 <p align="center"><img width="400" src="https://user-images.githubusercontent.com/17025808/154737770-370ddb05-b16d-4f77-ab48-115a15b6a263.png"></p>
 
- 4. Go to your **Documents**, to do a first try of the app:  
+ 4. Inside this folder, on your keyboard hold the keys <kbd>&nbsp;command&nbsp;</kbd>+<kbd>&nbsp;option&nbsp;</kbd> and drag the application (`finder_new_file.app`) into the finder toolbar:  
+<p align="center"><img width="400" src="https://user-images.githubusercontent.com/17025808/154740263-0b997590-4e5d-490c-b7cf-c25b3be47cf4.gif"></p>
+
+ 5. Go to your **Documents**, to do a first try of the app:  
 <p align="center"><img width="400" src="https://user-images.githubusercontent.com/17025808/154737310-573b5073-ff3d-4a13-8cbe-d58931b52364.png"></p>
 
  6. The first time you will have **a lot** of Permission requests, `Allow` these permissions:  
