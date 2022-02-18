@@ -1,4 +1,6 @@
 # Finder New File
+<p align="center"><img width="677" alt="cover_finder_new_file" src="https://user-images.githubusercontent.com/17025808/154743955-47d5ad1f-c071-402f-b92a-cb57df83bdc0.png"></p>
+
 Add a button to your Mac OS finder to create an empty `.txt` file in the current folder. 📂
 - No Additional software or library required, it's native AppleScript code ⌨️
 - Open Source project, you can check the code, copy it, edit it, it's under MIT License. 💫
