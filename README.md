@@ -46,7 +46,7 @@ If you had another error (or bug), please [open an issue](https://github.com/Ben
 To check and edit the source code open `finder_new_file.app` with the app `Script Editor`.  
 `Script Editor` is a native Mac OS app available by default in your mac.
 
-You can also find the source code in the file `source.scpt` [here in the assets folder]().
+You can also find the source code in the file `source.scpt` [here in the assets folder](https://github.com/BenSouchet/finder-new-file/blob/main/assets/source.scpt).
 
 ## Others Ressouces & Useful links
 - [AppleScript to create a new file in Finder](https://gist.github.com/rarylson/5d20fc96335851365a02)
